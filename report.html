@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ABBA - An Overview</title>
+ 
+    
+  </head>
+  <style>
+body {background-color:white}
+
+.navbar {
+  overflow: hidden;
+  background-color:black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+font-family:Arial;
+  font-size: 17px;
+}
+
+
+
+p {
+      font-size: 120%;
+      text-align:center;
+    }
+</style>
+<body>
+
+
+<div class="navbar">
+  <div style="background: black ; height: 30px; " > 
+    <a href="HOMEPAGE.html" style="color:white ; font-size: 25px; padding-right: 8px; text-decoration: none" >Homepage</a>
+    <a href="Our Story.html"style="color:white ; font-size: 25px; padding-right: 8px; text-decoration: none">Article</a>
+    <a href="report.html" style="color:white ; font-size: 25px; padding-right: 8px; text-decoration: none">Report</a>
+    <a href="about us.html" style="color:white ; font-size: 25px; padding-right: 8px; text-decoration: none; hover: grey" >About us</a>
+
+  </div>
+</div>
+  
+   
+
+
+
+  <br />
+ <br />
+
+
+
+  <div style="margin: 20px;">
+      <div >
+
+<div align="center"> <div style="font-size:40px" > <div style="font-family: Arial Black"> <div style="color:darkgoldenrod">
+<h1> Report </h1>
+<hr>
+<div style="font-size:30px" > <div style="font-family: Arial Black"> <div style="color:darkgoldenrod">
+<h2> Our methodology </h2>
+<div style="font-size:20px" > <div style="font-family: Arial"> <div style="color:black">
+<p> The purpose of this report is to provide an in-depth explanation of the development process of our project. We first relied on <b> Wikidata </b>, a “collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation”, as described on its Wikipedia page. This tool proved to be very useful, especially in finding inspiration for the theme of our project. After testing a few different hypotheses, we decided to focus on ABBA, the most successful Swedish music group of all time. Within this database, we searched several items and analysed different statements. Each statement consists of a pair of values that matches a property (with prefix P) with one or more entity values (prefix Q). <br> These pre-established codes were essential in the creation of the queries, and after several attempts within the <b> Wikidata Query Service </b>, we were able to obtain the required data with which we could construct a linear and coherent story. Below is an example from our project, illustrating the first 20 songs by ABBA. <br> <br> </p>
+<img src="esempio.jpg"> <br>
+<p> For the construction we applied the notions learnt during the course, using the SELECT-WHERE structure characterising SPARQL queries. In this specific case, we can also observe the use of other clauses. "ORDER BY" which defined the sequence of results in order of their release, and "LIMIT" which, given ABBA's wide discography, in fact limited the number of results to 20. <br> After checking the validity of our queries, we placed them within a story data on the <b> Melody </b> platform. This platform offers the possibility to represent the results obtained graphically by creating for example charts of various types, tables, maps, and many others. The use of Melody was also pivotal in the writing of the article. The graphical representation was in fact an important starting point that helped us to give structure and linearity to the article and subsequently also to the website. <br>
+For the website creation, we primarily used the <b> HTML </b> formatting language on our computer's notepad, which we learnt from the W3schools tutorial. Using the basic notions, we made an initial 'draft' of the website, incorporating the previously written and selected parts and images. <br> <br> </p>
+<img src="html.jpg"> <br> <br>
+<p> These elements shown in the picture were our starting point. The HTML headings, in particular <i>h1</i> and <i>h2</i> have been used to display our titles and subtitles on the webpage, while the p has been used for the paragraphs. <br> <br>
+Other tag names that we employed were:
+<div align="left">
+<ul> 
+<li>The <i>a</i> in combination with its attribute href to define links.</li>
+<li><i>br</i> to start a new line.</li>
+<li><i>hr</i> to separate the content from the title.</li>
+<li><i>b</i> and <i>i</i> respectively to bold and italicize key words.</li>
+<li><i>img</i> with its attribute src to embed an image to our HTML page.</li>
+<li><i>style</i> to modify color, font, and size. </li>
+<li><i>div</i> to divide the different modifying elements such as alignment and the many style attributes.</li>
+</ul> <br> <br>
+<div align="center"> <div style="font-size:30px" > <div style="font-family: Arial Black"> <div style="color:darkgoldenrod">
+<h2>Encountered challenges </h2>
+<div style="font-size:20px" > <div style="font-family: Arial"> <div style="color:black">
+<p>During the realisation of the project, we encountered various challenges. 
+<div align="left"> 
+<ul>
+<li>The first one concerned the topic choice: at the beginning we thought of realising a story about the indie pop genre in Italy, but the poorness of material on Wikidata led us to change course. For instance, when we tried out the count of Italian indie pop bands, we got very limited results (even though several musical groups perform this genre). Moreover, when we tried to build a Melody story about indie pop bands from Bologna, such as Lo Stato Sociale or Rovere band, we didn’t get very basic information such as the names of components or their pictures (probably because they are not very well known compared to other groups).
+So, we opted for ABBA, not only because we love their music, but also because it was easier for us to find the results we were looking for.</li> <br>
+<div align="center">
+<img src="statosociale.jpg"> <img src="rovere.jpg"> <br>
+<div align="left">
+<div align="left">
+<li>The second challenge concerned MusicBo and Polifonia corpus: we couldn’t source information from these corpora for neither of the two topics we were interested in, since no results were given.</li> <br>
+<div align="center">
+<img src="POLIFONIA ABBA.jpg" width="1000" height="500"> <br> <br>
+<li>The last challenge concerned Melody: when we finally built our complete story and tried to publish it, Melody often didn’t display some important parts, such as the actions of the text-search (which, at the end, after different attempts, appeared) and the text-boxes containing explanatory captions about the infographics.</li>
+</ul> <br>
+<div align="center">
+<img src="textbox.jpg">
+
+
+
+
+</body>
+</html>
